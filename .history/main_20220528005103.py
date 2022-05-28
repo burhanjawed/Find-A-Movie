@@ -32,7 +32,7 @@ def main():
         print(
             f'{titles[idx]} {years[idx]}, rating: {ratings[idx]:.1f}, starring: {actors_list[idx]}')
 
-        user_input = input('Do you want another movie (y/n)?').lower()
+        user_input = input('Do you want another movie (y/n)?')
 
         if user_input != 'y':
             print('Enjoy!')
